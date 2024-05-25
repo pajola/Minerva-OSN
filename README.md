@@ -30,5 +30,5 @@ The code can be executed in approximately 10 minutes.
 Note that we utilize LLAMA-2, to which you need to get access through HuggingFace. 
 (https://huggingface.co/docs/transformers/main/model_doc/llama2)
 
-**NOTE**: all our analyses involves *unsupervised machine learning* techniques. The various * hyperparameters * involved have been set by looking at state-of-the-art techniques and with manual analyses of two experts in the field.
+**NOTE**: all our analyses involves *unsupervised machine learning* techniques. The various *hyperparameters* involved have been set by looking at state-of-the-art techniques and with manual analyses of two experts in the field.
 
