@@ -15,7 +15,8 @@ The Minerva-OSN dataset is the result of this process, and it contains all those
 We highlight that, therefore, each paper in Minerva-OSN is linked with **one or more Online Social Networks**.
 
 **NOTE**: we do not guarantee that our heuristic for gathering OSN scientific articles is perfect, and, therefore some articles might be missing or, vice-versa, we might include articles not relevant to the scope of this research.
-Two experts manually evaluated the heuristic by inspecting the retrieved articles: this process allowed us to spot and address pitfalls such as false friends (the name of OSN might have multiple meanings -- like Faces). 
+Two experts manually evaluated the heuristic by inspecting the retrieved articles: this process allowed us to spot and address pitfalls such as homonyms (the name of OSN might have multiple meanings -- like Faces). 
+We kept articles containing homonyms if they also contained keywords related to OSN (e.g., social). 
 Therefore, the manual inspection phase reduced the introduction of erroneous articles in our dataset, making our contribution more robust. 
 
 ## Reproducibility
